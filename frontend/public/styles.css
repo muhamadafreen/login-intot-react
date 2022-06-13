@@ -1,0 +1,345 @@
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    background-color:#c4d70f ;
+}
+.navlogin{
+    margin-left: auto;
+}
+header{
+    padding-right: 12px;
+    
+}
+.headpart{
+    background-color: rgb(184 202 17);
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color:rgba(72, 14, 14, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+    text-decoration-line: none;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+.headtext{
+    font-weight: bold;
+    margin-left: 3%px;
+}
+
+.navbarc{
+    padding: 20px;
+}
+.navbarc ul{
+    padding-right: 70px;
+}
+.menulist{
+   
+    position: absolute;
+    top: 35px;
+    right: 2px;
+
+}
+
+.menulist button{
+    background-color: transparent;
+    border: none;
+}
+.headercontent{
+    text-align: left;
+    margin-left: 15%;
+    padding-top: 80px;
+}
+.headerimage{
+    width: 90%;
+}
+.nav-item{
+    margin: 10px;
+}
+.headercontent p{
+   margin-top: 20px;
+   margin-right: 40px;
+}
+.brand{
+        font-family: 'Dosis', sans-serif;
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 500;
+        color: #fefeff;
+        margin-top: 5px;
+}
+.top {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0;
+    top: 0;
+    background-color: #c4d70f;
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
+}
+.carouselprev{
+    top: 104%;
+     position: relative; 
+    /* right: 53%; */
+    border-radius: 100%;
+    border: #ffffff;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    z-index: 3;
+}
+.carouselNext{
+    top: 104%;
+    position: relative; 
+    /* right: 49%; */
+    border-radius: 100%;
+    border:#ffffff;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    z-index: 3;
+    
+}
+
+.carouselprev:hover,.carouselNext:hover{
+    background-color: #c4d70f;
+}
+.carousel {
+    position: absolute;
+    text-align: center;
+}
+#carouselExampleIndicators{
+    top: 110px;
+    
+}
+.readbtn{
+        display: inline-block;
+        padding: 9px 35px;
+        border: 2px solid #fefeff;
+        color: #fefeff;
+        border-radius: 35px;
+        text-decoration: none;
+    }
+  
+.readbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.indicator{
+   padding-right: 90%;
+   text-align-last: right;
+
+}
+.indicator button{
+    color: #ffffff;
+    height: 30px;
+    border-radius: 100%;
+    
+    background-color: transparent!important;
+}
+
+
+
+/* card section */
+.cardSection{
+    margin-top: 500px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #f5fafc;
+    padding-right: 20px;
+}
+.aboutCard{
+    background-color: white;
+    margin-left: 30px;
+    padding-top: 40px;
+    margin-bottom: 100px;
+      
+
+}
+.cards{
+    padding: 4% 10%;
+}
+.imgcard{
+    padding-bottom: 30px;
+}
+.cardbtn{
+    padding-top: 40px;
+    background-color: #f5fafc;
+}
+.cardtittle{
+    padding: 20px;
+}
+.cardbutton{
+        display: inline-block;
+        padding: 8px 25px;
+        border: 2px solid #c4d70f;
+        color: #c4d70f;
+        border-radius: 35px;
+        text-decoration: none;
+    
+}
+.cardbutton:hover{
+    background-color: #c4d70f;
+    color: white;
+    border-color:#c4d70f;
+}
+.portfolioSection{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.portfoliocontent{
+    padding: 50px;
+}
+.portfolioImgs{
+    padding: 20px 10%;
+    
+}
+.img-port{
+    padding: 10px;
+    width: 100%;
+}
+/* team section */
+.teamSection{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3%;
+
+}
+.teamimg{
+    width: 220px;
+}
+.teamimgdiv{
+    padding: 30px 1px;
+}
+.teamDatas{
+    padding: 60px 15%;
+}
+.follow{
+    color: #abff00;
+}
+.teamfollow{
+    padding-bottom: 10px;
+}
+.line{
+    color: #abff00;
+   margin-top: 100px;
+   border-width: medium;
+}
+
+/* sign up form */
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .middle {
+    margin-bottom: 0px;
+    border-radius: 0px;
+  }
+  .bottom {
+    margin-top: -1px;
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .text-center{
+      background-color: white;
+      padding-top: 200px;
+  }
+  .status{
+      color: rgb(146, 33, 33);
+      font-weight: 600;
+      line-height: 3rem;
+      font-size: larger;
+  }
+
+  .logstatus{
+      text-align: center;
+      
+  }
+  .log{
+      margin-top: 38px;
+      background-color: rgb(189, 168, 168);
+      color: rgb(23, 47, 107);
+      font-weight: 600;
+      padding:0;
+      width: 100%;
+      margin-bottom: 0;
+  }
+  .reguser{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .abc{
+      padding: 0;
+  }
+  /* .logis{
+      background-color: #c4d70f;
+  } */
+  span{
+      font-weight: bold;
+      font-size: larger;
+  }
+  .form-inline{
+      margin-right: 80%;
+      padding-top: 1px;
+      
+  }
+  .buttons{
+      margin-left: 10px;
+
+  }
+  .abcc{
+      margin-left: 10px;
+  }
